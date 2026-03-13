@@ -1,0 +1,15 @@
+D:\Practice\Failures\Failures.Application\bin\Debug\net10.0\Failures.Application.deps.json
+D:\Practice\Failures\Failures.Application\bin\Debug\net10.0\Failures.Application.dll
+D:\Practice\Failures\Failures.Application\bin\Debug\net10.0\Failures.Application.pdb
+D:\Practice\Failures\Failures.Application\bin\Debug\net10.0\Failures.Domain.dll
+D:\Practice\Failures\Failures.Application\bin\Debug\net10.0\Failures.Domain.pdb
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.csproj.AssemblyReference.cache
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.AssemblyInfoInputs.cache
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.AssemblyInfo.cs
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.csproj.CoreCompileInputs.cache
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.B37593CD.Up2Date
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.dll
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\refint\Failures.Application.dll
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\Failures.Application.pdb
+D:\Practice\Failures\Failures.Application\obj\Debug\net10.0\ref\Failures.Application.dll

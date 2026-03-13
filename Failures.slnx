@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Failures.Api/Failures.Api.csproj" />
+  <Project Path="Failures.Application/Failures.Application.csproj" />
+  <Project Path="Failures.Domain/Failures.Domain.csproj" />
+  <Project Path="Failures.Infrastructure/Failures.Infrastructure.csproj" />
+  <Project Path="Failures.Worker/Failures.Worker.csproj" />
+</Solution>
