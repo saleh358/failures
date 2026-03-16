@@ -12,16 +12,14 @@ public record GetFailures : IRequest<List<FailedPayment>>
 public record FailedPaymentDto(Guid Id, string? ErrorMessage, DateTime OccurredAt);
 
 public class GetRecentFailuresQueryHandler(IFailureService _failureService)
-    : IRequestHandler<GetFailures, IEnumerable<FailedPayment>>
+    : IRequestHandler<GetFailures, List<FailedPayment>>
 {
-    public async Task<IEnumerable<FailedPayment>> Handle(
+    public async Task<List<FailedPayment>> Handle(
         GetFailures request,
         CancellationToken cancellationToken
     )
     {
-        IEnumerable<FailedPayment> failures = await _failureService.GetAllFailuresAsync(
-            request.Count
-        );
-        return failures;
+        var failures = await _failureService.GetAllFailuresAsync(request.Count);
+        return failures.ToList();
     }
 }

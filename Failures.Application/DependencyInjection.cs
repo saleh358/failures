@@ -11,8 +11,6 @@ public static class DependencyInjection
         services.AddMediatR(cfg =>
             cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly())
         );
-        services.AddScoped<IFailureService, FailureService>();
-
         return services;
     }
 }
