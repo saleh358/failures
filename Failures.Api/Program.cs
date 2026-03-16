@@ -48,7 +48,7 @@ apiConfig
         "/failures",
         async (IMediator mediator, int? count) =>
         {
-            var query = new GetRecentFailuresQuery { Count = count ?? 10 };
+            var query = new Failures.Application.Features.Failures.Queries.GetFailures { Count = count ?? 10 };
             var result = await mediator.Send(query);
             return Results.Ok(result);
         }

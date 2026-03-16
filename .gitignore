@@ -1,0 +1,26 @@
+
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.backup
+*.swp
+*.tmp
+*.ncb
+
+# IDE
+.vs/
+.vscode/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# Local run/build outputs
+run_output.txt
+build.log.txt
+build_output*.txt
